@@ -1,8 +1,4 @@
-// MAIN CHANGES HERE, RENAME PATIENTS TO DOCTOS, AND ALSO IF YOU ADDED ANY NEW COLUMNS OR ATTRIBUTES TO DOCTOR MODEL,BE SURE TO ADD STUFF FOR THAT, NOT JUST HERE, BUT EVEN IN CONTROLLER FILE.
-// IN UPDATE FUNCTION, USE HTTPURL LIBRARY, TO SEND A MESSAGE TO localhost:3081/doctors/get/{id}, PASS THE PATIENT ID TO GET PATIENT DETAILS
-//USE THE RESPONSE TO SET PATIENT DETAILS FOR THE DOCTOR, LIKE PATIENT NAME AND DISEASE.
-// DO ANY OTHER RELEVANT CHANGES, LIKE UPDATING PACKAGE AND IMPORT PATHS WHEREVER NEEDED.
-//ONCE DONE, RENAME FILE to "DoctorService.java" 
+
 
 
 package com.example.orderservice.service;
@@ -79,14 +75,6 @@ String GET_URL = "http://localhost:3001/patients/get/"+pid;
                         } else {
                                 System.out.println("GET request not worked");
                         }
-                //HttpResponse<String> response = client.send(request,
-                //HttpResponse.BodyHandlers.ofString());
-                
-        
-        
-
-        
-        
         
         }
         catch(Exception e){
